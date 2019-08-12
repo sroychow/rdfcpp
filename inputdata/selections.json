@@ -1,0 +1,52 @@
+{
+    "SidebandPlus": {
+        "DATA": {
+            "cut": "Vtype==1 && HLT_SingleMu24 && Muon_corrected_pt[Idx_mu1]>25. && Muon_corrected_MET_nom_mt[Idx_mu1]>0. && MET_filters==1 && nVetoElectrons==0 && 1 && Muon_charge[Idx_mu1]>0", 
+            "weight": "totalWeight_Data"
+        }, 
+        "MC": {
+            "cut": "Vtype==1 && HLT_SingleMu24 && Muon_corrected_pt[Idx_mu1]>25. && Muon_corrected_MET_nom_mt[Idx_mu1]>0. && MET_filters==1 && nVetoElectrons==0 && 1 && Muon_charge[Idx_mu1]>0", 
+            "weight": "totalWeight_Muon1"
+        }
+    }, 
+    "SidebandMinus": {
+        "DATA": {
+            "cut": "Vtype==1 && HLT_SingleMu24 && Muon_corrected_pt[Idx_mu1]>25. && Muon_corrected_MET_nom_mt[Idx_mu1]>0. && MET_filters==1 && nVetoElectrons==0 && 1 && Muon_charge[Idx_mu1]<0", 
+            "weight": "totalWeight_Data"
+        }, 
+        "MC": {
+            "cut": "Vtype==1 && HLT_SingleMu24 && Muon_corrected_pt[Idx_mu1]>25. && Muon_corrected_MET_nom_mt[Idx_mu1]>0. && MET_filters==1 && nVetoElectrons==0 && 1 && Muon_charge[Idx_mu1]<0", 
+            "weight": "totalWeight_Muon1"
+        }
+    }, 
+    "Dimuon": {
+        "DATA": {
+            "cut": "Vtype==2 && HLT_SingleMu24 && Muon_corrected_pt[Idx_mu1]>25. && Muon_corrected_pt[Idx_mu2]>20. && MET_filters==1 && nVetoElectrons==0 && 1", 
+            "weight": "totalWeight_Data"
+        }, 
+        "MC": {
+            "cut": "Vtype==2 && HLT_SingleMu24 && Muon_corrected_pt[Idx_mu1]>25. && Muon_corrected_pt[Idx_mu2]>20. && MET_filters==1 && nVetoElectrons==0 && 1", 
+            "weight": "totalWeight_Dimuon"
+        }
+    }, 
+    "SignalPlus": {
+        "DATA": {
+            "cut": "Vtype==0 && HLT_SingleMu24 && Muon_corrected_pt[Idx_mu1]>25. && Muon_corrected_MET_nom_mt[Idx_mu1]>0. && MET_filters==1 && nVetoElectrons==0 && 1 && Muon_charge[Idx_mu1]>0", 
+            "weight": "totalWeight_Data"
+        }, 
+        "MC": {
+            "cut": "Vtype==0 && HLT_SingleMu24 && Muon_corrected_pt[Idx_mu1]>25. && Muon_corrected_MET_nom_mt[Idx_mu1]>0. && MET_filters==1 && nVetoElectrons==0 && 1 && Muon_charge[Idx_mu1]>0", 
+            "weight": "totalWeight_Muon1"
+        }
+    }, 
+    "SignalMinus": {
+        "DATA": {
+            "cut": "Vtype==0 && HLT_SingleMu24 && Muon_corrected_pt[Idx_mu1]>25. && Muon_corrected_MET_nom_mt[Idx_mu1]>0. && MET_filters==1 && nVetoElectrons==0 && 1 && Muon_charge[Idx_mu1]<0", 
+            "weight": "totalWeight_Data"
+        }, 
+        "MC": {
+            "cut": "Vtype==0 && HLT_SingleMu24 && Muon_corrected_pt[Idx_mu1]>25. && Muon_corrected_MET_nom_mt[Idx_mu1]>0. && MET_filters==1 && nVetoElectrons==0 && 1 && Muon_charge[Idx_mu1]<0", 
+            "weight": "totalWeight_Muon1"
+        }
+    }
+}
