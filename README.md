@@ -16,4 +16,4 @@ sh compile.sh
 
 ./controlPlots
 
-##Very basic version. Features needs to be added.
+##Very basic version. Features needs to be added. See open issues.
