@@ -4,7 +4,7 @@
 #include<fstream>
 #include<map>
 #include<vector>
-#include<tuple>
+#include<set>
 #include "TROOT.h"
 #include "TFile.h"
 #include "TString.h"
@@ -20,18 +20,19 @@ using json = nlohmann::json;
 
 class Module {
  public:
-  Module(ROOT::RDF::RNode dfnode, std::vector<VariableBlock> vars, std::string nomweight, 
-         json systematics, std::string mfilter, std::string nodeName);
+  Module(ROOT::RDF::RNode dfnode, std::vector<VariableBlock> vars, std::string nomweight, std::string mfilter, 
+         std::string nodeName, json wtvars, json colvars);
   ~Module(){}
-  void setHistograms(std::vector<HistoContainer>& hcontainerVec);
+  void setHistograms(HistoContainer& hcontainer);
+  bool replace(std::string& str, const std::string& from, const std::string& to);
+  void setHistogramforFilter(std::string filter, std::string systdir, std::vector<Variable1D>& var1d);
  private:
   ROOT::RDF::RNode rdfNode_;
-  bool isMC_;
-  std::string dataType_;
   std::vector<VariableBlock> vars_; 
   std::string nomweight_;
-  json systjson_;
   std::string filter_;
   std::string nodeName_;
+  json wtvars_;
+  json colvars_;
 };
 #endif

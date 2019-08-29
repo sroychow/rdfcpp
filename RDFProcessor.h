@@ -48,8 +48,9 @@ class RDFProcessor {
   json seljson_;
   json systjson_;
   json hweightsjson_;
-
+  json colvarmap_; 
+  json weightvarmap_; 
   std::vector<VariableBlock> vars_; 
-  std::vector<HistoContainer > histoVec_;
+  std::vector<HistoContainer> histoVec_;
 };
 #endif

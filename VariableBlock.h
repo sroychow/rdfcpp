@@ -20,20 +20,42 @@ class VariableBlock {
    void setValues(const json varjson);
    std::string colName() { return collectionName_; }    
    std::vector<std::string> appliesTo() { return appliesTo_; }
+   bool plotForRegion(std::string reg);
 
-   std::map<std::string,  Variable1D> var1D(){ return variables1D_; }
+   std::vector<Variable1D> var1D(std::string syst){
+     if(systvar1D_.find(syst) != systvar1D_.end())  
+       return systvar1D_[syst]; 
+   }
 
-   std::map<std::string,  Variable2D> var2D() { return variables2D_; }
+   std::vector<Variable2D> var2D(std::string syst){
+     if(systvar2D_.find(syst) != systvar2D_.end())  
+       return systvar2D_[syst]; 
+   }
 
-   std::map<std::string,  Variable3D> var3D() { return variables3D_; }
-
+   std::vector<Variable3D> var3D(std::string syst){
+     if(systvar3D_.find(syst) != systvar3D_.end())  
+       return systvar3D_[syst]; 
+   }
    
+   std::map<std::string, std::vector<Variable1D>> var1D(){
+       return systvar1D_; 
+   }
+
+   std::map<std::string, std::vector<Variable2D>> var2D(){
+       return systvar2D_; 
+   }
+
+   std::map<std::string, std::vector<Variable3D>> var3D(){
+       return systvar3D_; 
+   }
+   
+   void print();
   private:
     std::string collectionName_;    
     std::vector<std::string> appliesTo_;//e.g. ['Signal*','Sideband*','Dimuon]
-    std::map<std::string,  Variable1D> variables1D_;// e.g.'corrected_pt':   ('muon p_{T} (Rochester corr.)',  100, 25, 65)
-    std::map<std::string,  Variable2D> variables2D_;//
-    std::map<std::string,  Variable3D> variables3D_;//
+    std::map<std::string, std::vector<Variable1D>> systvar1D_;//
+    std::map<std::string, std::vector<Variable2D>> systvar2D_;
+    std::map<std::string, std::vector<Variable3D>> systvar3D_;
 };
 
 #endif

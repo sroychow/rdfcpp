@@ -3,7 +3,7 @@ import math
 # respect nanoAOD structure: Collection_modifiers_variable
 variables =  {        
     'PV' : {
-        'appliesTo' : ['Signal*','Sideband*','Dimuon'],
+        'appliesTo' : ['Signal','Sideband','Dimuon'],
         'inputCollection' : 'PV',
         'variables': {
             'npvsGood' :  ('Number of good primary vertices',  100, 0, 100),
@@ -23,7 +23,7 @@ variables =  {
             },
         },
     'Muon1': { 
-        'appliesTo' : ['Signal*','Sideband*','Dimuon'],
+        'appliesTo' : ['Signal','Sideband','Dimuon'],
         'inputCollection' : 'Muon',
         'newCollection': 'SelectedMuon1',  
         'index': 'Idx_mu1',
@@ -46,7 +46,7 @@ variables =  {
             'pfRelIso04_all_corrected_pt': ('muon pfAbsIso04',100, 0., 10.,'Muon_pfRelIso04_all*Muon_corrected_pt'),
         },
         'D2variables': {
-            'metvsReliso04' : ('M_{T} (Rochester corr./smear MET) VS muon pfRelIso04', 100, 0., 0.5, 100, 0, 100, 'pfRelIso04_all', 'corrected_MET_nom_mt')
+            'metvsReliso04' : ('M_{T} (Rochester corr./smear MET) VS muon pfRelIso04', 100, 0., 0.5, 100, 0, 100, 'pfRelIso04_all_corrected_pt', 'corrected_MET_nom_mt')
         },
         'D3variables': {
             'pt_met_Reliso04' : ('M_{T} (Rochester corr./smear MET) muon pfRelIso04 vs muon pt', 100, 25, 65, 100, 0., 0.5, 100, 0, 100, 'corrected_pt', 'pfRelIso04_all', 'corrected_MET_nom_mt')

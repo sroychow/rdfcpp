@@ -4,658 +4,797 @@
             "Dimuon"
         ], 
         "D1variables": {
-            "SelectedMuon2_pfRelIso04_all": [
-                "Muon_pfRelIso04_all[Idx_mu2]", 
-                "muon pfRelIso04", 
-                100, 
-                0.0, 
-                0.5
-            ], 
-            "SelectedMuon2_sip3d": [
-                "Muon_sip3d[Idx_mu2]", 
-                "sip3D", 
-                100, 
-                0, 
-                5
-            ], 
-            "SelectedMuon2_correctedUp_MET_uPar": [
-                "Muon_correctedUp_MET_uPar[Idx_mu2]", 
-                "uPar (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "SelectedMuon2_corrected_MET_jesTotalUp_Wlikehpt": [
-                "Muon_corrected_MET_jesTotalUp_Wlikehpt[Idx_mu2]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_correctedUp_MET_uPer": [
-                "Muon_correctedUp_MET_uPer[Idx_mu2]", 
-                "uPer (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "SelectedMuon2_corrected_MET_unclustEnUp_Wlikemt": [
-                "Muon_corrected_MET_unclustEnUp_Wlikemt[Idx_mu2]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_corrected_MET_nom_Wlikehpt": [
-                "Muon_corrected_MET_nom_Wlikehpt[Idx_mu2]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_corrected_MET_unclustEnDown_Wlikehpt": [
-                "Muon_corrected_MET_unclustEnDown_Wlikehpt[Idx_mu2]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_correctedDown_MET_nom_Wlikemt": [
-                "Muon_correctedDown_MET_nom_Wlikemt[Idx_mu2]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_corrected_MET_unclustEnUp_Wlikehpt": [
-                "Muon_corrected_MET_unclustEnUp_Wlikehpt[Idx_mu2]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_corrected_MET_jerDown_Wlikehpt": [
-                "Muon_corrected_MET_jerDown_Wlikehpt[Idx_mu2]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_corrected_MET_jesTotalDown_Wlikemt": [
-                "Muon_corrected_MET_jesTotalDown_Wlikemt[Idx_mu2]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_correctedDown_MET_uPar": [
-                "Muon_correctedDown_MET_uPar[Idx_mu2]", 
-                "uPar (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "SelectedMuon2_dxy": [
-                "Muon_dxy[Idx_mu2]", 
-                "muon dxy", 
-                100, 
-                -0.01, 
-                0.01
-            ], 
-            "SelectedMuon2_corrected_MET_unclustEnDown_Wlikemt": [
-                "Muon_corrected_MET_unclustEnDown_Wlikemt[Idx_mu2]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_correctedDown_MET_uPer": [
-                "Muon_correctedDown_MET_uPer[Idx_mu2]", 
-                "uPer (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "SelectedMuon2_corrected_MET_jerUp_Wlikehpt": [
-                "Muon_corrected_MET_jerUp_Wlikehpt[Idx_mu2]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_corrected_pt": [
-                "Muon_corrected_pt[Idx_mu2]", 
-                "muon p_{T} (Rochester corr.)", 
-                100, 
-                25, 
-                65
-            ], 
-            "SelectedMuon2_eta": [
-                "Muon_eta[Idx_mu2]", 
-                "muon eta", 
-                100, 
-                -2.5, 
-                2.5
-            ], 
-            "SelectedMuon2_correctedUp_pt": [
-                "Muon_correctedUp_pt[Idx_mu2]", 
-                "muon p_{T} (Rochester corr.)", 
-                100, 
-                25, 
-                65
-            ], 
-            "SelectedMuon2_dz": [
-                "Muon_dz[Idx_mu2]", 
-                "muon dz", 
-                100, 
-                -0.05, 
-                0.05
-            ], 
-            "SelectedMuon2_corrected_MET_jerDown_Wlikemt": [
-                "Muon_corrected_MET_jerDown_Wlikemt[Idx_mu2]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_correctedDown_MET_nom_Wlikehpt": [
-                "Muon_correctedDown_MET_nom_Wlikehpt[Idx_mu2]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_corrected_MET_nom_Wlikemt": [
-                "Muon_corrected_MET_nom_Wlikemt[Idx_mu2]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_correctedUp_MET_nom_Wlikemt": [
-                "Muon_correctedUp_MET_nom_Wlikemt[Idx_mu2]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_corrected_MET_jesTotalUp_Wlikemt": [
-                "Muon_corrected_MET_jesTotalUp_Wlikemt[Idx_mu2]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_corrected_MET_jesTotalDown_Wlikehpt": [
-                "Muon_corrected_MET_jesTotalDown_Wlikehpt[Idx_mu2]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_corrected_MET_uPer": [
-                "Muon_corrected_MET_uPer[Idx_mu2]", 
-                "uPer (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "SelectedMuon2_correctedUp_MET_nom_Wlikehpt": [
-                "Muon_correctedUp_MET_nom_Wlikehpt[Idx_mu2]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_corrected_MET_jerUp_Wlikemt": [
-                "Muon_corrected_MET_jerUp_Wlikemt[Idx_mu2]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon2_correctedDown_pt": [
-                "Muon_correctedDown_pt[Idx_mu2]", 
-                "muon p_{T} (Rochester corr.)", 
-                100, 
-                25, 
-                65
-            ], 
-            "SelectedMuon2_corrected_MET_uPar": [
-                "Muon_corrected_MET_uPar[Idx_mu2]", 
-                "uPar (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ]
+            "nom": {
+                "SelectedMuon2_corrected_MET_unclustEnDown_Wlikehpt": [
+                    "Muon_corrected_MET_unclustEnDown_Wlikehpt[Idx_mu2]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_corrected_MET_jesTotalUp_Wlikemt": [
+                    "Muon_corrected_MET_jesTotalUp_Wlikemt[Idx_mu2]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_corrected_MET_jesTotalDown_Wlikehpt": [
+                    "Muon_corrected_MET_jesTotalDown_Wlikehpt[Idx_mu2]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_corrected_MET_jerDown_Wlikehpt": [
+                    "Muon_corrected_MET_jerDown_Wlikehpt[Idx_mu2]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_corrected_MET_jesTotalUp_Wlikehpt": [
+                    "Muon_corrected_MET_jesTotalUp_Wlikehpt[Idx_mu2]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_corrected_MET_jerDown_Wlikemt": [
+                    "Muon_corrected_MET_jerDown_Wlikemt[Idx_mu2]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_corrected_MET_jerUp_Wlikemt": [
+                    "Muon_corrected_MET_jerUp_Wlikemt[Idx_mu2]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_corrected_MET_unclustEnDown_Wlikemt": [
+                    "Muon_corrected_MET_unclustEnDown_Wlikemt[Idx_mu2]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_corrected_MET_unclustEnUp_Wlikehpt": [
+                    "Muon_corrected_MET_unclustEnUp_Wlikehpt[Idx_mu2]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_corrected_MET_jerUp_Wlikehpt": [
+                    "Muon_corrected_MET_jerUp_Wlikehpt[Idx_mu2]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_corrected_MET_jesTotalDown_Wlikemt": [
+                    "Muon_corrected_MET_jesTotalDown_Wlikemt[Idx_mu2]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_corrected_MET_unclustEnUp_Wlikemt": [
+                    "Muon_corrected_MET_unclustEnUp_Wlikemt[Idx_mu2]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ]
+            }, 
+            "nominal": {
+                "SelectedMuon2_eta": [
+                    "Muon_eta[Idx_mu2]", 
+                    "muon eta", 
+                    100, 
+                    -2.5, 
+                    2.5
+                ], 
+                "SelectedMuon2_corrected_MET_nom_Wlikehpt": [
+                    "Muon_corrected_MET_nom_Wlikehpt[Idx_mu2]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_sip3d": [
+                    "Muon_sip3d[Idx_mu2]", 
+                    "sip3D", 
+                    100, 
+                    0, 
+                    5
+                ], 
+                "SelectedMuon2_pfRelIso04_all": [
+                    "Muon_pfRelIso04_all[Idx_mu2]", 
+                    "muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5
+                ], 
+                "SelectedMuon2_corrected_MET_uPer": [
+                    "Muon_corrected_MET_uPer[Idx_mu2]", 
+                    "uPer (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "SelectedMuon2_dz": [
+                    "Muon_dz[Idx_mu2]", 
+                    "muon dz", 
+                    100, 
+                    -0.05, 
+                    0.05
+                ], 
+                "SelectedMuon2_corrected_MET_nom_Wlikemt": [
+                    "Muon_corrected_MET_nom_Wlikemt[Idx_mu2]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_dxy": [
+                    "Muon_dxy[Idx_mu2]", 
+                    "muon dxy", 
+                    100, 
+                    -0.01, 
+                    0.01
+                ], 
+                "SelectedMuon2_corrected_MET_uPar": [
+                    "Muon_corrected_MET_uPar[Idx_mu2]", 
+                    "uPar (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "SelectedMuon2_corrected_pt": [
+                    "Muon_corrected_pt[Idx_mu2]", 
+                    "muon p_{T} (Rochester corr.)", 
+                    100, 
+                    25, 
+                    65
+                ]
+            }, 
+            "corrected": {
+                "SelectedMuon2_correctedDown_MET_nom_Wlikemt": [
+                    "Muon_correctedDown_MET_nom_Wlikemt[Idx_mu2]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_correctedUp_pt": [
+                    "Muon_correctedUp_pt[Idx_mu2]", 
+                    "muon p_{T} (Rochester corr.)", 
+                    100, 
+                    25, 
+                    65
+                ], 
+                "SelectedMuon2_correctedUp_MET_uPar": [
+                    "Muon_correctedUp_MET_uPar[Idx_mu2]", 
+                    "uPar (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "SelectedMuon2_correctedUp_MET_nom_Wlikehpt": [
+                    "Muon_correctedUp_MET_nom_Wlikehpt[Idx_mu2]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_correctedDown_MET_uPar": [
+                    "Muon_correctedDown_MET_uPar[Idx_mu2]", 
+                    "uPar (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "SelectedMuon2_correctedDown_MET_nom_Wlikehpt": [
+                    "Muon_correctedDown_MET_nom_Wlikehpt[Idx_mu2]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon2_correctedDown_pt": [
+                    "Muon_correctedDown_pt[Idx_mu2]", 
+                    "muon p_{T} (Rochester corr.)", 
+                    100, 
+                    25, 
+                    65
+                ], 
+                "SelectedMuon2_correctedDown_MET_uPer": [
+                    "Muon_correctedDown_MET_uPer[Idx_mu2]", 
+                    "uPer (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "SelectedMuon2_correctedUp_MET_uPer": [
+                    "Muon_correctedUp_MET_uPer[Idx_mu2]", 
+                    "uPer (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "SelectedMuon2_correctedUp_MET_nom_Wlikemt": [
+                    "Muon_correctedUp_MET_nom_Wlikemt[Idx_mu2]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ]
+            }
         }
     }, 
     "SelectedMuon1": {
         "appliesTo": [
-            "Signal*", 
-            "Sideband*", 
+            "Signal", 
+            "Sideband", 
             "Dimuon"
         ], 
         "D1variables": {
-            "SelectedMuon1_corrected_MET_unclustEnUp_Wlikehpt": [
-                "Muon_corrected_MET_unclustEnUp_Wlikehpt[Idx_mu1]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_unclustEnUp_hpt": [
-                "Muon_corrected_MET_unclustEnUp_hpt[Idx_mu1]", 
-                "recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_jesTotalDown_mt": [
-                "Muon_corrected_MET_jesTotalDown_mt[Idx_mu1]", 
-                "M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                100
-            ], 
-            "SelectedMuon1_correctedDown_pt": [
-                "Muon_correctedDown_pt[Idx_mu1]", 
-                "muon p_{T} (Rochester corr.)", 
-                100, 
-                25, 
-                65
-            ], 
-            "SelectedMuon1_dz": [
-                "Muon_dz[Idx_mu1]", 
-                "muon dz", 
-                100, 
-                -0.05, 
-                0.05
-            ], 
-            "SelectedMuon1_corrected_MET_jerDown_hpt": [
-                "Muon_corrected_MET_jerDown_hpt[Idx_mu1]", 
-                "recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_pt": [
-                "Muon_corrected_pt[Idx_mu1]", 
-                "muon p_{T} (Rochester corr.)", 
-                100, 
-                25, 
-                65
-            ], 
-            "SelectedMuon1_corrected_MET_jesTotalUp_hpt": [
-                "Muon_corrected_MET_jesTotalUp_hpt[Idx_mu1]", 
-                "recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_jerDown_mt": [
-                "Muon_corrected_MET_jerDown_mt[Idx_mu1]", 
-                "M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                100
-            ], 
-            "SelectedMuon1_correctedUp_MET_nom_Wlikemt": [
-                "Muon_correctedUp_MET_nom_Wlikemt[Idx_mu1]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_unclustEnUp_Wlikemt": [
-                "Muon_corrected_MET_unclustEnUp_Wlikemt[Idx_mu1]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_jerUp_Wlikemt": [
-                "Muon_corrected_MET_jerUp_Wlikemt[Idx_mu1]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_jerUp_Wlikehpt": [
-                "Muon_corrected_MET_jerUp_Wlikehpt[Idx_mu1]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_correctedUp_MET_uPar": [
-                "Muon_correctedUp_MET_uPar[Idx_mu1]", 
-                "uPar (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "SelectedMuon1_eta": [
-                "Muon_eta[Idx_mu1]", 
-                "muon eta", 
-                100, 
-                -2.5, 
-                2.5
-            ], 
-            "SelectedMuon1_corrected_MET_jesTotalUp_Wlikemt": [
-                "Muon_corrected_MET_jesTotalUp_Wlikemt[Idx_mu1]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_unclustEnDown_Wlikemt": [
-                "Muon_corrected_MET_unclustEnDown_Wlikemt[Idx_mu1]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_jesTotalDown_hpt": [
-                "Muon_corrected_MET_jesTotalDown_hpt[Idx_mu1]", 
-                "recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_jerUp_hpt": [
-                "Muon_corrected_MET_jerUp_hpt[Idx_mu1]", 
-                "recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_correctedUp_MET_uPer": [
-                "Muon_correctedUp_MET_uPer[Idx_mu1]", 
-                "uPer (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "SelectedMuon1_corrected_MET_jesTotalDown_Wlikemt": [
-                "Muon_corrected_MET_jesTotalDown_Wlikemt[Idx_mu1]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_correctedUp_MET_nom_hpt": [
-                "Muon_correctedUp_MET_nom_hpt[Idx_mu1]", 
-                "recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_unclustEnDown_hpt": [
-                "Muon_corrected_MET_unclustEnDown_hpt[Idx_mu1]", 
-                "recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_unclustEnDown_Wlikehpt": [
-                "Muon_corrected_MET_unclustEnDown_Wlikehpt[Idx_mu1]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_sip3d": [
-                "Muon_sip3d[Idx_mu1]", 
-                "sip3D", 
-                100, 
-                0, 
-                5
-            ], 
-            "SelectedMuon1_corrected_MET_nom_hpt": [
-                "Muon_corrected_MET_nom_hpt[Idx_mu1]", 
-                "recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_correctedDown_MET_nom_hpt": [
-                "Muon_correctedDown_MET_nom_hpt[Idx_mu1]", 
-                "recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_correctedUp_MET_nom_Wlikehpt": [
-                "Muon_correctedUp_MET_nom_Wlikehpt[Idx_mu1]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_jesTotalDown_Wlikehpt": [
-                "Muon_corrected_MET_jesTotalDown_Wlikehpt[Idx_mu1]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_jerUp_mt": [
-                "Muon_corrected_MET_jerUp_mt[Idx_mu1]", 
-                "M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                100
-            ], 
-            "SelectedMuon1_pfRelIso04_all": [
-                "Muon_pfRelIso04_all[Idx_mu1]", 
-                "muon pfRelIso04", 
-                100, 
-                0.0, 
-                0.5
-            ], 
-            "SelectedMuon1_correctedDown_MET_uPar": [
-                "Muon_correctedDown_MET_uPar[Idx_mu1]", 
-                "uPar (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "SelectedMuon1_corrected_MET_uPar": [
-                "Muon_corrected_MET_uPar[Idx_mu1]", 
-                "uPar (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "SelectedMuon1_corrected_MET_jesTotalUp_Wlikehpt": [
-                "Muon_corrected_MET_jesTotalUp_Wlikehpt[Idx_mu1]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_correctedUp_MET_nom_mt": [
-                "Muon_correctedUp_MET_nom_mt[Idx_mu1]", 
-                "M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                100
-            ], 
-            "SelectedMuon1_corrected_MET_jerDown_Wlikehpt": [
-                "Muon_corrected_MET_jerDown_Wlikehpt[Idx_mu1]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_unclustEnUp_mt": [
-                "Muon_corrected_MET_unclustEnUp_mt[Idx_mu1]", 
-                "M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                100
-            ], 
-            "SelectedMuon1_correctedDown_MET_nom_Wlikehpt": [
-                "Muon_correctedDown_MET_nom_Wlikehpt[Idx_mu1]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_correctedDown_MET_uPer": [
-                "Muon_correctedDown_MET_uPer[Idx_mu1]", 
-                "uPer (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "SelectedMuon1_corrected_MET_unclustEnDown_mt": [
-                "Muon_corrected_MET_unclustEnDown_mt[Idx_mu1]", 
-                "M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                100
-            ], 
-            "SelectedMuon1_corrected_MET_uPer": [
-                "Muon_corrected_MET_uPer[Idx_mu1]", 
-                "uPer (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "SelectedMuon1_correctedDown_MET_nom_Wlikemt": [
-                "Muon_correctedDown_MET_nom_Wlikemt[Idx_mu1]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_jerDown_Wlikemt": [
-                "Muon_corrected_MET_jerDown_Wlikemt[Idx_mu1]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_correctedUp_pt": [
-                "Muon_correctedUp_pt[Idx_mu1]", 
-                "muon p_{T} (Rochester corr.)", 
-                100, 
-                25, 
-                65
-            ], 
-            "SelectedMuon1_corrected_MET_nom_Wlikehpt": [
-                "Muon_corrected_MET_nom_Wlikehpt[Idx_mu1]", 
-                "W-like recoil p_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_jesTotalUp_mt": [
-                "Muon_corrected_MET_jesTotalUp_mt[Idx_mu1]", 
-                "M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                100
-            ], 
-            "SelectedMuon1_dxy": [
-                "Muon_dxy[Idx_mu1]", 
-                "muon dxy", 
-                100, 
-                -0.01, 
-                0.01
-            ], 
-            "SelectedMuon1_correctedDown_MET_nom_mt": [
-                "Muon_correctedDown_MET_nom_mt[Idx_mu1]", 
-                "M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                100
-            ], 
-            "SelectedMuon1_corrected_MET_nom_Wlikemt": [
-                "Muon_corrected_MET_nom_Wlikemt[Idx_mu1]", 
-                "W-like M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                200
-            ], 
-            "SelectedMuon1_corrected_MET_nom_mt": [
-                "Muon_corrected_MET_nom_mt[Idx_mu1]", 
-                "M_{T} (Rochester corr./smear MET)", 
-                100, 
-                0, 
-                100
-            ]
+            "nom": {
+                "SelectedMuon1_corrected_MET_unclustEnUp_Wlikehpt": [
+                    "Muon_corrected_MET_unclustEnUp_Wlikehpt[Idx_mu1]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_unclustEnUp_hpt": [
+                    "Muon_corrected_MET_unclustEnUp_hpt[Idx_mu1]", 
+                    "recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jesTotalDown_mt": [
+                    "Muon_corrected_MET_jesTotalDown_mt[Idx_mu1]", 
+                    "M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    100
+                ], 
+                "SelectedMuon1_corrected_MET_jerDown_hpt": [
+                    "Muon_corrected_MET_jerDown_hpt[Idx_mu1]", 
+                    "recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jesTotalUp_hpt": [
+                    "Muon_corrected_MET_jesTotalUp_hpt[Idx_mu1]", 
+                    "recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jerDown_mt": [
+                    "Muon_corrected_MET_jerDown_mt[Idx_mu1]", 
+                    "M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    100
+                ], 
+                "SelectedMuon1_corrected_MET_unclustEnUp_Wlikemt": [
+                    "Muon_corrected_MET_unclustEnUp_Wlikemt[Idx_mu1]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jerUp_Wlikemt": [
+                    "Muon_corrected_MET_jerUp_Wlikemt[Idx_mu1]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jesTotalUp_Wlikemt": [
+                    "Muon_corrected_MET_jesTotalUp_Wlikemt[Idx_mu1]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_unclustEnDown_Wlikemt": [
+                    "Muon_corrected_MET_unclustEnDown_Wlikemt[Idx_mu1]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jesTotalDown_hpt": [
+                    "Muon_corrected_MET_jesTotalDown_hpt[Idx_mu1]", 
+                    "recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jerUp_hpt": [
+                    "Muon_corrected_MET_jerUp_hpt[Idx_mu1]", 
+                    "recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jesTotalDown_Wlikemt": [
+                    "Muon_corrected_MET_jesTotalDown_Wlikemt[Idx_mu1]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_unclustEnDown_hpt": [
+                    "Muon_corrected_MET_unclustEnDown_hpt[Idx_mu1]", 
+                    "recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_unclustEnDown_Wlikehpt": [
+                    "Muon_corrected_MET_unclustEnDown_Wlikehpt[Idx_mu1]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jesTotalDown_Wlikehpt": [
+                    "Muon_corrected_MET_jesTotalDown_Wlikehpt[Idx_mu1]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jerUp_mt": [
+                    "Muon_corrected_MET_jerUp_mt[Idx_mu1]", 
+                    "M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    100
+                ], 
+                "SelectedMuon1_corrected_MET_jerUp_Wlikehpt": [
+                    "Muon_corrected_MET_jerUp_Wlikehpt[Idx_mu1]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jesTotalUp_Wlikehpt": [
+                    "Muon_corrected_MET_jesTotalUp_Wlikehpt[Idx_mu1]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_unclustEnUp_mt": [
+                    "Muon_corrected_MET_unclustEnUp_mt[Idx_mu1]", 
+                    "M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    100
+                ], 
+                "SelectedMuon1_corrected_MET_unclustEnDown_mt": [
+                    "Muon_corrected_MET_unclustEnDown_mt[Idx_mu1]", 
+                    "M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    100
+                ], 
+                "SelectedMuon1_corrected_MET_jerDown_Wlikemt": [
+                    "Muon_corrected_MET_jerDown_Wlikemt[Idx_mu1]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_jesTotalUp_mt": [
+                    "Muon_corrected_MET_jesTotalUp_mt[Idx_mu1]", 
+                    "M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    100
+                ], 
+                "SelectedMuon1_corrected_MET_jerDown_Wlikehpt": [
+                    "Muon_corrected_MET_jerDown_Wlikehpt[Idx_mu1]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ]
+            }, 
+            "nominal": {
+                "SelectedMuon1_corrected_MET_uPar": [
+                    "Muon_corrected_MET_uPar[Idx_mu1]", 
+                    "uPar (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "SelectedMuon1_corrected_pt": [
+                    "Muon_corrected_pt[Idx_mu1]", 
+                    "muon p_{T} (Rochester corr.)", 
+                    100, 
+                    25, 
+                    65
+                ], 
+                "SelectedMuon1_corrected_MET_nom_Wlikehpt": [
+                    "Muon_corrected_MET_nom_Wlikehpt[Idx_mu1]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_corrected_MET_uPer": [
+                    "Muon_corrected_MET_uPer[Idx_mu1]", 
+                    "uPer (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "SelectedMuon1_eta": [
+                    "Muon_eta[Idx_mu1]", 
+                    "muon eta", 
+                    100, 
+                    -2.5, 
+                    2.5
+                ], 
+                "SelectedMuon1_sip3d": [
+                    "Muon_sip3d[Idx_mu1]", 
+                    "sip3D", 
+                    100, 
+                    0, 
+                    5
+                ], 
+                "SelectedMuon1_corrected_MET_nom_hpt": [
+                    "Muon_corrected_MET_nom_hpt[Idx_mu1]", 
+                    "recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_dz": [
+                    "Muon_dz[Idx_mu1]", 
+                    "muon dz", 
+                    100, 
+                    -0.05, 
+                    0.05
+                ], 
+                "SelectedMuon1_corrected_MET_nom_Wlikemt": [
+                    "Muon_corrected_MET_nom_Wlikemt[Idx_mu1]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_dxy": [
+                    "Muon_dxy[Idx_mu1]", 
+                    "muon dxy", 
+                    100, 
+                    -0.01, 
+                    0.01
+                ], 
+                "SelectedMuon1_pfRelIso04_all": [
+                    "Muon_pfRelIso04_all[Idx_mu1]", 
+                    "muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5
+                ], 
+                "SelectedMuon1_corrected_MET_nom_mt": [
+                    "Muon_corrected_MET_nom_mt[Idx_mu1]", 
+                    "M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    100
+                ]
+            }, 
+            "corrected": {
+                "SelectedMuon1_correctedUp_MET_nom_hpt": [
+                    "Muon_correctedUp_MET_nom_hpt[Idx_mu1]", 
+                    "recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_correctedUp_MET_nom_Wlikemt": [
+                    "Muon_correctedUp_MET_nom_Wlikemt[Idx_mu1]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_correctedUp_MET_nom_mt": [
+                    "Muon_correctedUp_MET_nom_mt[Idx_mu1]", 
+                    "M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    100
+                ], 
+                "SelectedMuon1_correctedDown_MET_uPar": [
+                    "Muon_correctedDown_MET_uPar[Idx_mu1]", 
+                    "uPar (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "SelectedMuon1_correctedDown_MET_nom_Wlikehpt": [
+                    "Muon_correctedDown_MET_nom_Wlikehpt[Idx_mu1]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_correctedDown_MET_uPer": [
+                    "Muon_correctedDown_MET_uPer[Idx_mu1]", 
+                    "uPer (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "SelectedMuon1_correctedUp_MET_uPar": [
+                    "Muon_correctedUp_MET_uPar[Idx_mu1]", 
+                    "uPar (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "SelectedMuon1_correctedUp_MET_nom_Wlikehpt": [
+                    "Muon_correctedUp_MET_nom_Wlikehpt[Idx_mu1]", 
+                    "W-like recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_correctedDown_MET_nom_Wlikemt": [
+                    "Muon_correctedDown_MET_nom_Wlikemt[Idx_mu1]", 
+                    "W-like M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_correctedDown_MET_nom_hpt": [
+                    "Muon_correctedDown_MET_nom_hpt[Idx_mu1]", 
+                    "recoil p_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    200
+                ], 
+                "SelectedMuon1_correctedUp_pt": [
+                    "Muon_correctedUp_pt[Idx_mu1]", 
+                    "muon p_{T} (Rochester corr.)", 
+                    100, 
+                    25, 
+                    65
+                ], 
+                "SelectedMuon1_correctedDown_pt": [
+                    "Muon_correctedDown_pt[Idx_mu1]", 
+                    "muon p_{T} (Rochester corr.)", 
+                    100, 
+                    25, 
+                    65
+                ], 
+                "SelectedMuon1_correctedDown_MET_nom_mt": [
+                    "Muon_correctedDown_MET_nom_mt[Idx_mu1]", 
+                    "M_{T} (Rochester corr./smear MET)", 
+                    100, 
+                    0, 
+                    100
+                ], 
+                "SelectedMuon1_correctedUp_MET_uPer": [
+                    "Muon_correctedUp_MET_uPer[Idx_mu1]", 
+                    "uPer (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ]
+            }
         }, 
         "D2variables": {
-            "metvsReliso04": [
-                "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
-                100, 
-                0.0, 
-                0.5, 
-                100, 
-                0, 
-                100, 
-                "SelectedMuon1_pfRelIso04_all", 
-                "SelectedMuon1_corrected_MET_nom_mt"
-            ]
+            "nom": {
+                "SelectedMuon1_Y_SelectedMuon1_corrected_MET_jesTotalUp_mt": [
+                    "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_pfRelIso04_all_corrected_pt", 
+                    "SelectedMuon1_corrected_MET_jesTotalUp_mt"
+                ], 
+                "SelectedMuon1_Y_SelectedMuon1_corrected_MET_unclustEnDown_mt": [
+                    "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_pfRelIso04_all_corrected_pt", 
+                    "SelectedMuon1_corrected_MET_unclustEnDown_mt"
+                ], 
+                "SelectedMuon1_Y_SelectedMuon1_corrected_MET_jesTotalDown_mt": [
+                    "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_pfRelIso04_all_corrected_pt", 
+                    "SelectedMuon1_corrected_MET_jesTotalDown_mt"
+                ], 
+                "SelectedMuon1_Y_SelectedMuon1_corrected_MET_jerDown_mt": [
+                    "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_pfRelIso04_all_corrected_pt", 
+                    "SelectedMuon1_corrected_MET_jerDown_mt"
+                ], 
+                "SelectedMuon1_Y_SelectedMuon1_corrected_MET_unclustEnUp_mt": [
+                    "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_pfRelIso04_all_corrected_pt", 
+                    "SelectedMuon1_corrected_MET_unclustEnUp_mt"
+                ], 
+                "SelectedMuon1_Y_SelectedMuon1_corrected_MET_jerUp_mt": [
+                    "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_pfRelIso04_all_corrected_pt", 
+                    "SelectedMuon1_corrected_MET_jerUp_mt"
+                ]
+            }, 
+            "nominal": {
+                "metvsReliso04": [
+                    "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_pfRelIso04_all_corrected_pt", 
+                    "SelectedMuon1_corrected_MET_nom_mt"
+                ]
+            }, 
+            "corrected": {
+                "SelectedMuon1_Y_SelectedMuon1_correctedDown_MET_nom_mt": [
+                    "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_pfRelIso04_all_corrected_pt", 
+                    "SelectedMuon1_correctedDown_MET_nom_mt"
+                ], 
+                "SelectedMuon1_X_SelectedMuon1_pfRelIso04_all_correctedUp_pt": [
+                    "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_pfRelIso04_all_correctedUp_pt", 
+                    "SelectedMuon1_corrected_MET_nom_mt"
+                ], 
+                "SelectedMuon1_Y_SelectedMuon1_correctedUp_MET_nom_mt": [
+                    "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_pfRelIso04_all_corrected_pt", 
+                    "SelectedMuon1_correctedUp_MET_nom_mt"
+                ], 
+                "SelectedMuon1_X_SelectedMuon1_pfRelIso04_all_correctedDown_pt": [
+                    "M_{T} (Rochester corr./smear MET) VS muon pfRelIso04", 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_pfRelIso04_all_correctedDown_pt", 
+                    "SelectedMuon1_corrected_MET_nom_mt"
+                ]
+            }
         }, 
         "D1newvariables": {
-            "SelectedMuon1_pfRelIso04_all_correctedDown_pt": [
-                "SelectedMuon1_pfRelIso04_all*SelectedMuon1_correctedDown_pt", 
-                "muon pfAbsIso04", 
-                100, 
-                0.0, 
-                10.0
-            ], 
-            "SelectedMuon1_pfRelIso04_all_corrected_pt": [
-                "SelectedMuon1_pfRelIso04_all*SelectedMuon1_corrected_pt", 
-                "muon pfAbsIso04", 
-                100, 
-                0.0, 
-                10.0
-            ], 
-            "SelectedMuon1_pfRelIso04_all_correctedUp_pt": [
-                "SelectedMuon1_pfRelIso04_all*SelectedMuon1_correctedUp_pt", 
-                "muon pfAbsIso04", 
-                100, 
-                0.0, 
-                10.0
-            ]
+            "nom": {}, 
+            "nominal": {
+                "SelectedMuon1_pfRelIso04_all_corrected_pt": [
+                    "Muon_pfRelIso04_all*Muon_corrected_pt", 
+                    "muon pfAbsIso04", 
+                    100, 
+                    0.0, 
+                    10.0
+                ]
+            }, 
+            "corrected": {
+                "SelectedMuon1_pfRelIso04_all_correctedDown_pt": [
+                    "Muon_pfRelIso04_all*Muon_correctedDown_pt", 
+                    "muon pfAbsIso04", 
+                    100, 
+                    0.0, 
+                    10.0
+                ], 
+                "SelectedMuon1_pfRelIso04_all_correctedUp_pt": [
+                    "Muon_pfRelIso04_all*Muon_correctedUp_pt", 
+                    "muon pfAbsIso04", 
+                    100, 
+                    0.0, 
+                    10.0
+                ]
+            }
         }, 
         "D3variables": {
-            "pt_met_Reliso04": [
-                "M_{T} (Rochester corr./smear MET) muon pfRelIso04 vs muon pt", 
-                100, 
-                25, 
-                65, 
-                100, 
-                0.0, 
-                0.5, 
-                100, 
-                0, 
-                100, 
-                "SelectedMuon1_corrected_pt", 
-                "SelectedMuon1_pfRelIso04_all", 
-                "SelectedMuon1_corrected_MET_nom_mt"
-            ]
+            "nominal": {
+                "pt_met_Reliso04": [
+                    "M_{T} (Rochester corr./smear MET) muon pfRelIso04 vs muon pt", 
+                    100, 
+                    25, 
+                    65, 
+                    100, 
+                    0.0, 
+                    0.5, 
+                    100, 
+                    0, 
+                    100, 
+                    "SelectedMuon1_corrected_pt", 
+                    "SelectedMuon1_pfRelIso04_all", 
+                    "SelectedMuon1_corrected_MET_nom_mt"
+                ]
+            }
         }
     }, 
     "PV": {
         "appliesTo": [
-            "Signal*", 
-            "Sideband*", 
+            "Signal", 
+            "Sideband", 
             "Dimuon"
         ], 
         "D1variables": {
-            "PV_npvsGood": [
-                "PV_npvsGood", 
-                "Number of good primary vertices", 
-                100, 
-                0, 
-                100
-            ]
+            "nom": {}, 
+            "nominal": {
+                "PV_npvsGood": [
+                    "PV_npvsGood", 
+                    "Number of good primary vertices", 
+                    100, 
+                    0, 
+                    100
+                ]
+            }, 
+            "corrected": {}
         }
     }, 
     "RecoZ": {
@@ -663,237 +802,243 @@
             "Dimuon"
         ], 
         "D1variables": {
-            "RecoZ_Muon_corrected_MET_jerDown_uPar": [
-                "RecoZ_Muon_corrected_MET_jerDown_uPar[Idx_mu2]", 
-                "uPar on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_MET_jerDown_uPer": [
-                "RecoZ_Muon_corrected_MET_jerDown_uPer[Idx_mu2]", 
-                "uPer on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_CStheta": [
-                "RecoZ_Muon_corrected_CStheta", 
-                "Dimuon CS cosTheta (Rochester corr.)", 
-                100, 
-                -1, 
-                1
-            ], 
-            "RecoZ_Muon_corrected_MET_nom_uPer": [
-                "RecoZ_Muon_corrected_MET_nom_uPer", 
-                "uPer on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_correctedUp_pt": [
-                "RecoZ_Muon_correctedUp_pt[Idx_mu2]", 
-                "Dimuon p_{T} (Rochester corr.)", 
-                100, 
-                0, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_MET_jesTotalDown_uPer": [
-                "RecoZ_Muon_corrected_MET_jesTotalDown_uPer[Idx_mu2]", 
-                "uPer on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_correctedUp_MET_nom_uPer": [
-                "RecoZ_Muon_correctedUp_MET_nom_uPer[Idx_mu2]", 
-                "uPer on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_MET_jerUp_uPer": [
-                "RecoZ_Muon_corrected_MET_jerUp_uPer[Idx_mu2]", 
-                "uPer on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_correctedDown_y": [
-                "RecoZ_Muon_correctedDown_y[Idx_mu2]", 
-                "Dimuon y (Rochester corr.)", 
-                100, 
-                -3, 
-                3
-            ], 
-            "RecoZ_Muon_correctedDown_MET_nom_uPer": [
-                "RecoZ_Muon_correctedDown_MET_nom_uPer[Idx_mu2]", 
-                "uPer on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_correctedUp_MET_nom_uPar": [
-                "RecoZ_Muon_correctedUp_MET_nom_uPar[Idx_mu2]", 
-                "uPar on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_y": [
-                "RecoZ_Muon_corrected_y", 
-                "Dimuon y (Rochester corr.)", 
-                100, 
-                -3, 
-                3
-            ], 
-            "RecoZ_Muon_correctedDown_pt": [
-                "RecoZ_Muon_correctedDown_pt[Idx_mu2]", 
-                "Dimuon p_{T} (Rochester corr.)", 
-                100, 
-                0, 
-                100
-            ], 
-            "RecoZ_Muon_correctedDown_CStheta": [
-                "RecoZ_Muon_correctedDown_CStheta[Idx_mu2]", 
-                "Dimuon CS cosTheta (Rochester corr.)", 
-                100, 
-                -1, 
-                1
-            ], 
-            "RecoZ_Muon_correctedUp_CStheta": [
-                "RecoZ_Muon_correctedUp_CStheta[Idx_mu2]", 
-                "Dimuon CS cosTheta (Rochester corr.)", 
-                100, 
-                -1, 
-                1
-            ], 
-            "RecoZ_Muon_correctedUp_mass": [
-                "RecoZ_Muon_correctedUp_mass[Idx_mu2]", 
-                "Dimuon mass (Rochester corr.)", 
-                100, 
-                50, 
-                150
-            ], 
-            "RecoZ_Muon_corrected_MET_jesTotalUp_uPer": [
-                "RecoZ_Muon_corrected_MET_jesTotalUp_uPer[Idx_mu2]", 
-                "uPer on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_MET_jesTotalUp_uPar": [
-                "RecoZ_Muon_corrected_MET_jesTotalUp_uPar[Idx_mu2]", 
-                "uPar on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_mass": [
-                "RecoZ_Muon_corrected_mass", 
-                "Dimuon mass (Rochester corr.)", 
-                100, 
-                50, 
-                150
-            ], 
-            "RecoZ_Muon_correctedUp_CSphi": [
-                "RecoZ_Muon_correctedUp_CSphi[Idx_mu2]", 
-                "Dimuon CS phi (Rochester corr.)", 
-                100, 
-                -3.141592653589793, 
-                3.141592653589793
-            ], 
-            "RecoZ_Muon_corrected_MET_jesTotalDown_uPar": [
-                "RecoZ_Muon_corrected_MET_jesTotalDown_uPar[Idx_mu2]", 
-                "uPar on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_correctedDown_mass": [
-                "RecoZ_Muon_correctedDown_mass[Idx_mu2]", 
-                "Dimuon mass (Rochester corr.)", 
-                100, 
-                50, 
-                150
-            ], 
-            "RecoZ_Muon_corrected_MET_unclustEnUp_uPer": [
-                "RecoZ_Muon_corrected_MET_unclustEnUp_uPer[Idx_mu2]", 
-                "uPer on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_MET_nom_uPar": [
-                "RecoZ_Muon_corrected_MET_nom_uPar", 
-                "uPar on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_MET_unclustEnDown_uPar": [
-                "RecoZ_Muon_corrected_MET_unclustEnDown_uPar[Idx_mu2]", 
-                "uPar on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_MET_unclustEnDown_uPer": [
-                "RecoZ_Muon_corrected_MET_unclustEnDown_uPer[Idx_mu2]", 
-                "uPer on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_CSphi": [
-                "RecoZ_Muon_corrected_CSphi", 
-                "Dimuon CS phi (Rochester corr.)", 
-                100, 
-                -3.141592653589793, 
-                3.141592653589793
-            ], 
-            "RecoZ_Muon_correctedUp_y": [
-                "RecoZ_Muon_correctedUp_y[Idx_mu2]", 
-                "Dimuon y (Rochester corr.)", 
-                100, 
-                -3, 
-                3
-            ], 
-            "RecoZ_Muon_corrected_MET_jerUp_uPar": [
-                "RecoZ_Muon_corrected_MET_jerUp_uPar[Idx_mu2]", 
-                "uPar on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_correctedDown_MET_nom_uPar": [
-                "RecoZ_Muon_correctedDown_MET_nom_uPar[Idx_mu2]", 
-                "uPar on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ], 
-            "RecoZ_Muon_corrected_pt": [
-                "RecoZ_Muon_corrected_pt", 
-                "Dimuon p_{T} (Rochester corr.)", 
-                100, 
-                0, 
-                100
-            ], 
-            "RecoZ_Muon_correctedDown_CSphi": [
-                "RecoZ_Muon_correctedDown_CSphi[Idx_mu2]", 
-                "Dimuon CS phi (Rochester corr.)", 
-                100, 
-                -3.141592653589793, 
-                3.141592653589793
-            ], 
-            "RecoZ_Muon_corrected_MET_unclustEnUp_uPar": [
-                "RecoZ_Muon_corrected_MET_unclustEnUp_uPar[Idx_mu2]", 
-                "uPar on Z (Rochester corr./smear MET)", 
-                100, 
-                -100, 
-                100
-            ]
+            "nom": {
+                "RecoZ_Muon_corrected_MET_jesTotalDown_uPar": [
+                    "RecoZ_Muon_corrected_MET_jesTotalDown_uPar", 
+                    "uPar on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_MET_jerUp_uPar": [
+                    "RecoZ_Muon_corrected_MET_jerUp_uPar", 
+                    "uPar on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_MET_jerDown_uPar": [
+                    "RecoZ_Muon_corrected_MET_jerDown_uPar", 
+                    "uPar on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_MET_jerUp_uPer": [
+                    "RecoZ_Muon_corrected_MET_jerUp_uPer", 
+                    "uPer on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_MET_jerDown_uPer": [
+                    "RecoZ_Muon_corrected_MET_jerDown_uPer", 
+                    "uPer on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_MET_unclustEnDown_uPar": [
+                    "RecoZ_Muon_corrected_MET_unclustEnDown_uPar", 
+                    "uPar on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_MET_jesTotalUp_uPer": [
+                    "RecoZ_Muon_corrected_MET_jesTotalUp_uPer", 
+                    "uPer on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_MET_unclustEnDown_uPer": [
+                    "RecoZ_Muon_corrected_MET_unclustEnDown_uPer", 
+                    "uPer on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_MET_jesTotalUp_uPar": [
+                    "RecoZ_Muon_corrected_MET_jesTotalUp_uPar", 
+                    "uPar on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_MET_unclustEnUp_uPer": [
+                    "RecoZ_Muon_corrected_MET_unclustEnUp_uPer", 
+                    "uPer on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_MET_unclustEnUp_uPar": [
+                    "RecoZ_Muon_corrected_MET_unclustEnUp_uPar", 
+                    "uPar on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_MET_jesTotalDown_uPer": [
+                    "RecoZ_Muon_corrected_MET_jesTotalDown_uPer", 
+                    "uPer on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ]
+            }, 
+            "nominal": {
+                "RecoZ_Muon_corrected_y": [
+                    "RecoZ_Muon_corrected_y", 
+                    "Dimuon y (Rochester corr.)", 
+                    100, 
+                    -3, 
+                    3
+                ], 
+                "RecoZ_Muon_corrected_CStheta": [
+                    "RecoZ_Muon_corrected_CStheta", 
+                    "Dimuon CS cosTheta (Rochester corr.)", 
+                    100, 
+                    -1, 
+                    1
+                ], 
+                "RecoZ_Muon_corrected_MET_nom_uPar": [
+                    "RecoZ_Muon_corrected_MET_nom_uPar", 
+                    "uPar on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_CSphi": [
+                    "RecoZ_Muon_corrected_CSphi", 
+                    "Dimuon CS phi (Rochester corr.)", 
+                    100, 
+                    -3.141592653589793, 
+                    3.141592653589793
+                ], 
+                "RecoZ_Muon_corrected_MET_nom_uPer": [
+                    "RecoZ_Muon_corrected_MET_nom_uPer", 
+                    "uPer on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_corrected_mass": [
+                    "RecoZ_Muon_corrected_mass", 
+                    "Dimuon mass (Rochester corr.)", 
+                    100, 
+                    50, 
+                    150
+                ], 
+                "RecoZ_Muon_corrected_pt": [
+                    "RecoZ_Muon_corrected_pt", 
+                    "Dimuon p_{T} (Rochester corr.)", 
+                    100, 
+                    0, 
+                    100
+                ]
+            }, 
+            "corrected": {
+                "RecoZ_Muon_correctedUp_MET_nom_uPer": [
+                    "RecoZ_Muon_correctedUp_MET_nom_uPer", 
+                    "uPer on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_correctedDown_y": [
+                    "RecoZ_Muon_correctedDown_y", 
+                    "Dimuon y (Rochester corr.)", 
+                    100, 
+                    -3, 
+                    3
+                ], 
+                "RecoZ_Muon_correctedUp_pt": [
+                    "RecoZ_Muon_correctedUp_pt", 
+                    "Dimuon p_{T} (Rochester corr.)", 
+                    100, 
+                    0, 
+                    100
+                ], 
+                "RecoZ_Muon_correctedDown_mass": [
+                    "RecoZ_Muon_correctedDown_mass", 
+                    "Dimuon mass (Rochester corr.)", 
+                    100, 
+                    50, 
+                    150
+                ], 
+                "RecoZ_Muon_correctedDown_pt": [
+                    "RecoZ_Muon_correctedDown_pt", 
+                    "Dimuon p_{T} (Rochester corr.)", 
+                    100, 
+                    0, 
+                    100
+                ], 
+                "RecoZ_Muon_correctedDown_CStheta": [
+                    "RecoZ_Muon_correctedDown_CStheta", 
+                    "Dimuon CS cosTheta (Rochester corr.)", 
+                    100, 
+                    -1, 
+                    1
+                ], 
+                "RecoZ_Muon_correctedUp_CStheta": [
+                    "RecoZ_Muon_correctedUp_CStheta", 
+                    "Dimuon CS cosTheta (Rochester corr.)", 
+                    100, 
+                    -1, 
+                    1
+                ], 
+                "RecoZ_Muon_correctedUp_mass": [
+                    "RecoZ_Muon_correctedUp_mass", 
+                    "Dimuon mass (Rochester corr.)", 
+                    100, 
+                    50, 
+                    150
+                ], 
+                "RecoZ_Muon_correctedDown_MET_nom_uPer": [
+                    "RecoZ_Muon_correctedDown_MET_nom_uPer", 
+                    "uPer on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_correctedUp_y": [
+                    "RecoZ_Muon_correctedUp_y", 
+                    "Dimuon y (Rochester corr.)", 
+                    100, 
+                    -3, 
+                    3
+                ], 
+                "RecoZ_Muon_correctedDown_MET_nom_uPar": [
+                    "RecoZ_Muon_correctedDown_MET_nom_uPar", 
+                    "uPar on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_correctedUp_MET_nom_uPar": [
+                    "RecoZ_Muon_correctedUp_MET_nom_uPar", 
+                    "uPar on Z (Rochester corr./smear MET)", 
+                    100, 
+                    -100, 
+                    100
+                ], 
+                "RecoZ_Muon_correctedDown_CSphi": [
+                    "RecoZ_Muon_correctedDown_CSphi", 
+                    "Dimuon CS phi (Rochester corr.)", 
+                    100, 
+                    -3.141592653589793, 
+                    3.141592653589793
+                ], 
+                "RecoZ_Muon_correctedUp_CSphi": [
+                    "RecoZ_Muon_correctedUp_CSphi", 
+                    "Dimuon CS phi (Rochester corr.)", 
+                    100, 
+                    -3.141592653589793, 
+                    3.141592653589793
+                ]
+            }
         }
     }
 }
