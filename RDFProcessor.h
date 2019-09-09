@@ -21,7 +21,7 @@ using json = nlohmann::json;
 
 class RDFProcessor {
  public:
-  RDFProcessor(std::string_view treeName, std::vector<std::string>& fileNames, std::string dataType = "MC");
+  RDFProcessor(std::string_view treeName, std::vector<std::string>& fileNames, std::string dataType = "MC", float xsec = 1.);
   ~RDFProcessor(){}
   void setInputTree(){}
   void setVariables(const std::string& varFile);

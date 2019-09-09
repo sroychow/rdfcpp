@@ -7,12 +7,12 @@
 
 using ROOT::RDF::RNode;
 
-RDFProcessor::RDFProcessor(std::string_view treeName, std::vector<std::string>& fileNames, std::string dataType) :
+RDFProcessor::RDFProcessor(std::string_view treeName, std::vector<std::string>& fileNames, std::string dataType, float xsec) :
   rdfTree_(ROOT::RDataFrame(treeName, fileNames))
 {
   inFilenames_ = fileNames;
-  targetLumi_ = 35.91;
-  xsec_ = 1.;
+  targetLumi_ = 35.922;//this should also be parmetrized:TODO
+  xsec_ = xsec;
   dataType_ = dataType;
   isMC_ = dataType == "MC" ? true : false;
   outputFile_ = "test.root";
@@ -75,11 +75,11 @@ void RDFProcessor::defineColumnsofInterest() {
   if(dataType_ == "MC") {
     //define weight histos
     auto runs = ROOT::RDataFrame("Runs", inFilenames_);
-    auto genEventSumw = runs.Sum("genEventSumw").GetValue();
-    std::cout << "genEventSumw " <<  genEventSumw <<  " weighted events\n";
+    double genEventSumw = runs.Sum("genEventSumw").GetValue();
+    std::cout << "genEventSumw " <<  std::setprecision(15) << std::fixed << genEventSumw <<  " weighted events\n";
     std::cout << "xsec " <<  xsec_ <<  " pb\n";
     std::stringstream lumiweight;
-    lumiweight << std::setprecision(10) << (targetLumi_*xsec_)/genEventSumw;
+    lumiweight << "(" << targetLumi_ << "*" << xsec_ << ")/" << std::fixed << genEventSumw;
     std::cout << "lumiweight " << lumiweight.str() <<  " (|Generator_weight| not accounted for)\n";
     rdfTree_ = rdfTree_.Define("lumiweight", lumiweight.str());
   }

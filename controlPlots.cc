@@ -12,7 +12,7 @@
 //using ROOT::RDF::RNode;
 using json = nlohmann::json;
 
-int main() {
+int main(int argc, char* argv[]) {
   const std::string& varFile="inputdata/variablesColumns.json";
   const std::string& weightFile="inputdata/weightColumns.json";
   const std::string& selectionsFile="inputdata/selections.json";
@@ -24,10 +24,10 @@ int main() {
   sf >> samplesjson;
   sf.close();
 
-  std::string sampleName = "ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1";
-  std::string inputDir = "/eos/user/r/roy4/data/NanoAOD2016-V1/";
+  std::string sampleName = argv[1];//"ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1";
+  std::string inputDir = "/scratch/sroychow/NanoAOD2016-V1MCFinal/";
 
-  float samplexsec = samplesjson[sampleName]["xsec"];
+  float samplexsec = (samplesjson[sampleName]["xsec"].get<float>())/0.001;
   std::string sampleType = samplesjson[sampleName]["datatype"];
   std::vector< std::string > sampleFiles;
   for(auto& [subdir, treeList] :  samplesjson[sampleName]["dir"].items()) {
@@ -48,8 +48,8 @@ int main() {
   //const std::string_view inFile = "/eos/user/r/roy4/data/NanoAOD2016-V1/ST_s-channel_4f_leptonDecays_13TeV-amcatnlo-pythia8_TuneCUETP8M1/tree.root";
 
   
-  ROOT::EnableImplicitMT(8);
-  RDFProcessor* rf = new RDFProcessor("Events", sampleFiles, sampleType);
+  ROOT::EnableImplicitMT(24);
+  RDFProcessor* rf = new RDFProcessor("Events", sampleFiles, sampleType, samplexsec);
   rf->setVariables(varFile);
   rf->setWeights(weightFile);
   rf->setSelections(selectionsFile);
