@@ -23,9 +23,9 @@ void VariableBlock::setValues(const json varjson) {
     }
     else if ( info == "D1variables" or info == "D1newvariables") {
       for(auto& [systdir, varinfo] : val.items()) {
-	std::cout << "SystDir=" << systdir << std::endl;
+	//std::cout << "SystDir=" << systdir << std::endl;
 	for(auto& [cname, defn]: varinfo.items()) {
-	  std::cout << "colname=" << cname << std::endl;
+	  //std::cout << "colname=" << cname << std::endl;
 	  Variable1D v1d;
 	  v1d.systdir = systdir;
 	  v1d.varName = cname;
@@ -38,7 +38,7 @@ void VariableBlock::setValues(const json varjson) {
     }//end else-if 1D 
     else if ( info == "D2variables") {
       for(auto& [systdir, varinfo] : val.items()) {
-	std::cout << "SystDir=" << systdir << std::endl;
+	//std::cout << "SystDir=" << systdir << std::endl;
 	for(auto& [cname, defn]: varinfo.items()) {
 	  Variable2D v2d;
 	  v2d.varName = cname;
@@ -54,7 +54,7 @@ void VariableBlock::setValues(const json varjson) {
     }//end else-if 2D    
     else if ( info == "D3variables") {
       for(auto& [systdir, varinfo] : val.items()) {
-	std::cout << "SystDir=" << systdir << std::endl;
+	//std::cout << "SystDir=" << systdir << std::endl;
 	for(auto& [cname, defn]: varinfo.items()) {
 	  Variable3D v3d;
 	  v3d.varName = cname;

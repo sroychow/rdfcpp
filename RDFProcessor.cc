@@ -24,7 +24,7 @@ void RDFProcessor::setVariables(const std::string& varFile) {
   fin.close();
 
   for(auto& [collectionName, value] : varjson_.items()) {
-    std::cout << "collectionName=" << collectionName << "\n\n\n";
+    //std::cout << "collectionName=" << collectionName << "\n\n\n";
     vars_.emplace_back(VariableBlock(collectionName, value));
   }
  
@@ -66,7 +66,7 @@ void RDFProcessor::defineColumnsofInterest() {
     for(auto& [syst, varVec] : varBlock.var1D()) {
       for(auto& var : varVec) {
          if(std::find( colNames.begin(), colNames.end(), var.varName) != colNames.end() )   continue;
-         std::cout << var.varName << " = " << var.colX << " needs to be defined" << std::endl;
+         //std::cout << var.varName << " = " << var.colX << " needs to be defined" << std::endl;
          rdfTree_ = rdfTree_.Define(var.varName, var.colX);
       }
     }
@@ -85,8 +85,8 @@ void RDFProcessor::defineColumnsofInterest() {
   }
   
   for(auto& [wcol, wtdefs] : hweightsjson_[dataType_].items()) {
+    std::cout << "Weight Column:" << wcol << std::endl;
     for(auto& [wtvar, wtvardict] : wtdefs.items()) {
-      std::cout << wtvar << std::endl;
       if(wtvar == "nominal") {
         rdfTree_ = rdfTree_.Define(wcol, wtvardict.get<std::string>());
       }
@@ -97,7 +97,7 @@ void RDFProcessor::defineColumnsofInterest() {
       }
     }
   }
-  std::cout << "#Defined Columns after variable + histogram definition=" << rdfTree_.GetDefinedColumnNames().size() << std::endl;
+  std::cout << "#Defined Columns after variable + weight definition=" << rdfTree_.GetDefinedColumnNames().size() << std::endl;
 }
 
 void RDFProcessor::branchModules() {
